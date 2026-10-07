@@ -72,7 +72,7 @@ mAP@[.5:.95] 0.896, recall 0.998; on the blind labels of the 331 S1/S2 frames mA
 ## Access to the images
 
 The images are provided for non-commercial research under the Dataset Research Use Agreement
-(`AGREEMENT.md`). Request procedure: https://docs.google.com/forms/d/e/1FAIpQLSd8KILl9Gc-wRFBLGOQzDiLdmlxrCcq5ws660spaO-hSScd0w/viewform. Approved applicants receive a download link
+(`AGREEMENT.md`). Request procedure: https://forms.gle/b7ACQ5R5y13k23KH7. Approved applicants receive a download link
 by e-mail. The agreement prohibits redistribution of the images and any attempt to identify
 vehicles or persons. A privacy check of the frames is documented in `privacy/PRIVACY_CHECK.md`.
 
