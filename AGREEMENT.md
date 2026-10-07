@@ -4,7 +4,7 @@ Winter Parking-Lot Dataset (Sapporo, 2023-2024), images
 
 1. Provider and ownership. The dataset is the intellectual property of Hokkaido University and is
    provided by the Information and Communication Network Laboratory, Hokkaido University
-   (contact: mingyang.li.t6@elms.hokudai.ac.jp). This Agreement grants a limited,
+   (contact: dataset@icn.ist.hokudai.ac.jp). This Agreement grants a limited,
    non-exclusive, non-transferable right of use; it transfers no ownership or other rights.
 2. Scope. 5,217 images of a fixed-camera parking lot in Sapporo (2023-11-24 to 2024-04-12) and the
    accompanying labels. Labels, splits and code are also available publicly at https://github.com/HU-ICN/winter-parking-dataset;

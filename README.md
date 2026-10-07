@@ -96,4 +96,4 @@ See `CITATION.cff`. Please cite the paper when you use the dataset, the labels o
 
 ## Contact
 
-Hiroshi Tsutsui (corresponding author of the paper); dataset requests: mingyang.li.t6@elms.hokudai.ac.jp.
+Hiroshi Tsutsui (corresponding author of the paper); dataset requests: dataset@icn.ist.hokudai.ac.jp.
