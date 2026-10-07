@@ -1,0 +1,380 @@
+{
+ "version": "3.2.6",
+ "flags": {},
+ "shapes": [
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     771.21,
+     964.02
+    ],
+    [
+     893.32,
+     1036.85
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     837.62,
+     1289.64
+    ],
+    [
+     981.15,
+     1373.19
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1186.81,
+     597.69
+    ],
+    [
+     1304.64,
+     661.96
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1266.08,
+     1308.92
+    ],
+    [
+     1431.03,
+     1394.61
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1473.87,
+     1388.18
+    ],
+    [
+     1619.55,
+     1471.73
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1495.3,
+     1493.15
+    ],
+    [
+     1632.4,
+     1536.0
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1625.97,
+     616.97
+    ],
+    [
+     1760.94,
+     683.38
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1739.51,
+     934.03
+    ],
+    [
+     1876.62,
+     1004.72
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1763.08,
+     1006.86
+    ],
+    [
+     1904.47,
+     1077.56
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1818.78,
+     1156.82
+    ],
+    [
+     1996.59,
+     1233.94
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1827.35,
+     1257.51
+    ],
+    [
+     2020.15,
+     1345.34
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1891.62,
+     1353.91
+    ],
+    [
+     2050.14,
+     1437.46
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1891.62,
+     1461.02
+    ],
+    [
+     2090.85,
+     1536.0
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1587.41,
+     494.86
+    ],
+    [
+     1688.1,
+     561.27
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  }
+ ],
+ "imagePath": "image_20240130081702.png",
+ "imageData": null,
+ "imageHeight": 1536,
+ "imageWidth": 2304,
+ "description": "",
+ "revision_annotation": {
+  "tool": "blind_detection_tool",
+  "tool_version": "1.0.2",
+  "label_set_id": "INDEPENDENT-BLIND-331",
+  "anonymous_id": "B0251",
+  "sequence": 251,
+  "protocol_sha256": "ba3b4394fc8a85ccfa3902eb5484e9c44c9d8a291a947e4cfdda79ffca180e34",
+  "addendum_sha256": null,
+  "instrumentation_addendum_sha256": "bc4d8e5e70a61ae9b08466fcaa0fe6abf13e4f804fa12e0df9e431710302e572",
+  "manifest_sha256": "bf33ff8f3faa5f075300fd8a4564a039bf32887077aec7b1aed4643628bddcdd",
+  "image_sha256": "db054299078de27cadf455608641720b3180d5a8a241811cabeb63ed5084d5d2",
+  "started_at": "2026-08-25T13:09:21+09:00",
+  "last_saved_at": "2026-09-04T16:17:32+09:00",
+  "completed_at": "2026-08-25T13:10:25+09:00",
+  "active_seconds": 62.1,
+  "wall_seconds": 64.38,
+  "complete": true,
+  "frame_note": ""
+ }
+}

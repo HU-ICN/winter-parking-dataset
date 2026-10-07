@@ -1,0 +1,130 @@
+{
+ "version": "3.2.6",
+ "flags": {},
+ "shapes": [
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     816.2,
+     1240.37
+    ],
+    [
+     966.16,
+     1326.06
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1452.45,
+     1433.17
+    ],
+    [
+     1602.41,
+     1523.15
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1865.91,
+     1321.77
+    ],
+    [
+     2026.58,
+     1407.46
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1872.33,
+     1413.89
+    ],
+    [
+     2035.15,
+     1499.58
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  }
+ ],
+ "imagePath": "image_20231212071457.png",
+ "imageData": null,
+ "imageHeight": 1536,
+ "imageWidth": 2304,
+ "description": "",
+ "revision_annotation": {
+  "tool": "blind_detection_tool",
+  "tool_version": "1.0.2",
+  "label_set_id": "INDEPENDENT-BLIND-331",
+  "anonymous_id": "B0176",
+  "sequence": 176,
+  "protocol_sha256": "ba3b4394fc8a85ccfa3902eb5484e9c44c9d8a291a947e4cfdda79ffca180e34",
+  "addendum_sha256": null,
+  "instrumentation_addendum_sha256": "bc4d8e5e70a61ae9b08466fcaa0fe6abf13e4f804fa12e0df9e431710302e572",
+  "manifest_sha256": "bf33ff8f3faa5f075300fd8a4564a039bf32887077aec7b1aed4643628bddcdd",
+  "image_sha256": "b43719d4033f0d8f9802dfa1ac0c3559e2889587b9b9287491a5e30e7ec74d59",
+  "started_at": "2026-08-20T19:00:25+09:00",
+  "last_saved_at": "2026-09-04T16:18:02+09:00",
+  "completed_at": "2026-08-20T19:00:49+09:00",
+  "active_seconds": 15.89,
+  "wall_seconds": 26.81,
+  "complete": true,
+  "frame_note": ""
+ }
+}

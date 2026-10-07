@@ -1,0 +1,25 @@
+{
+ "experiment": "E24",
+ "script_sha256": "95e31ae6f2d2122d613fd374c995ca4339658a06c1ff250260dabb3b50982357",
+ "freeze_sha256": "6fd86962e7abb67ba0dec71abc34a98d2612315479e7aaeb460da473099510b8",
+ "models_sha256": "686c0aebfced98ebcb81dbcd72f5678750441594e07d39a55e966a0612d485c1",
+ "n_jobs": 24,
+ "val_args": {
+  "imgsz": 1280,
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "batch": 16
+ },
+ "started_at": "2026-09-28T070250+0800",
+ "environment": {
+  "python": "3.10.13",
+  "numpy": "1.26.4",
+  "torch": "2.7.0+cu126",
+  "ultralytics": "8.3.186",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "host": "mario-ML-7B79"
+ },
+ "finished_at": "2026-09-28T071110+0800"
+}

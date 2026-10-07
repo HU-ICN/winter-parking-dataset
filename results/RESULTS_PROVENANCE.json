@@ -1,0 +1,90 @@
+{
+ "note": "Copies of the sealed result packages with machine paths and host names redacted; original_sha256 is the hash of the unredacted file in the laboratory archive.",
+ "files": [
+  {
+   "file": "E17_same_site_two_label_sources/predictions_conf025.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "8b2e5d4abb95001868e048043ab0b4211efcf6c79f5265717730255338827589"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/results_A.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "752fecce95ac1716e399de7c6249747653183ea42d04e143913281706555bf1a"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/results_B.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "5e2ab7202e540e4ffa1ae5d426bc252dd6b70bbc1b0cd3fb310bd31e2b80114f"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/results_C.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "64da1c8772e1356d63201579bbddeceb8d1c5c3be37dd8c4ac0df326b05179eb"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/results_D.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "70a39ddea4252b10f56b7e79199dfbde303718d8592473d3237e37afacdcfeca"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/rule_check.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "ba49addd69c1d97d127e091bff417588050c93c8c5691e500d075884b7c76a04"
+  },
+  {
+   "file": "E17_same_site_two_label_sources/run_manifest.json",
+   "source_package": "2026-09-06T152011+0800",
+   "original_sha256": "e6dfe16033a626bd73839c21de08dfcaa728a9390cc28e59b44abbe101d8f50d"
+  },
+  {
+   "file": "E21_day_budget/results_A.json",
+   "source_package": "2026-09-08T223528+0800",
+   "original_sha256": "e5065adf48c3bdd17e6d2549d26d1edca79046c27aefa21f4027049de621cd0a"
+  },
+  {
+   "file": "E21_day_budget/results_S.json",
+   "source_package": "2026-09-08T223528+0800",
+   "original_sha256": "ecfdb5f845ce9c746586f84dc895ffa4a0aeb4c5044a3995615675200c77411d"
+  },
+  {
+   "file": "E21_day_budget/results_X.json",
+   "source_package": "2026-09-08T223528+0800",
+   "original_sha256": "589a2e52a1e2e5030405c43cc96ba223bc0dff9920d37bafb087f467fdacb1a3"
+  },
+  {
+   "file": "E21_day_budget/run_manifest.json",
+   "source_package": "2026-09-08T223528+0800",
+   "original_sha256": "b032cfefcb9a976706b7a1cc183e241367a03b249ea8f8f98d0cd31f74d78c2c"
+  },
+  {
+   "file": "A10_occupancy_120/occupancy_results.json",
+   "source_package": "2026-09-09T215146+0900",
+   "original_sha256": "2605986019349f1cf1283012e4c66bdbf5092e2aead2dd8bf257f0db2f5593b4"
+  },
+  {
+   "file": "E24_identical_image_control/results_A.json",
+   "source_package": "2026-09-28T070250+0800",
+   "original_sha256": "d8d4a93b8b0884dc115aa5762b1438c2b4a89bc75ba0602d4f8eb6be3f0d147d"
+  },
+  {
+   "file": "E24_identical_image_control/results_S.json",
+   "source_package": "2026-09-28T070250+0800",
+   "original_sha256": "93aaf310728113a934e5c8f27d41c313636975332a1eae491b5f0f9825c1b672"
+  },
+  {
+   "file": "E24_identical_image_control/run_manifest.json",
+   "source_package": "2026-09-28T070250+0800",
+   "original_sha256": "e5cd01a5d68a209b1726107d0eed085f360e30c6754b9d1bc4b036aaaf093de7"
+  },
+  {
+   "file": "E23_test_retest_55/matched_pairs.json",
+   "source_package": "2026-09-18T222708+0900",
+   "original_sha256": "abb6e688aaf26cf10616c5c09af0510bda4fc6bedb189af2346c67c7ce831bc8"
+  },
+  {
+   "file": "E23_test_retest_55/test_retest_results.json",
+   "source_package": "2026-09-18T222708+0900",
+   "original_sha256": "db511744d465cd2618250bd2147cd85c6f29af57e830775432efa698ebbac5af"
+  }
+ ]
+}

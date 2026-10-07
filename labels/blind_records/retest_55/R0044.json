@@ -1,0 +1,156 @@
+{
+ "version": "3.2.6",
+ "flags": {},
+ "shapes": [
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1457.95,
+     187.32
+    ],
+    [
+     1545.37,
+     237.27
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1865.89,
+     1186.34
+    ],
+    [
+     2032.39,
+     1265.43
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1399.67,
+     951.15
+    ],
+    [
+     1516.23,
+     1019.84
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1410.08,
+     1105.17
+    ],
+    [
+     1568.26,
+     1178.02
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1470.44,
+     1271.67
+    ],
+    [
+     1645.27,
+     1361.17
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  }
+ ],
+ "imagePath": "image_20231230123046.png",
+ "imageData": null,
+ "imageHeight": 1536,
+ "imageWidth": 2304,
+ "description": "",
+ "revision_annotation": {
+  "tool": "blind_detection_tool",
+  "tool_version": "1.0.14",
+  "label_set_id": "INDEPENDENT-BLIND-RETEST-55",
+  "anonymous_id": "R0044",
+  "sequence": 44,
+  "protocol_sha256": "ba3b4394fc8a85ccfa3902eb5484e9c44c9d8a291a947e4cfdda79ffca180e34",
+  "addendum_sha256": null,
+  "instrumentation_addendum_sha256": "bc4d8e5e70a61ae9b08466fcaa0fe6abf13e4f804fa12e0df9e431710302e572",
+  "manifest_sha256": "e65f4dfddadb85e7de634347ce3398af4ace03d8924f2aae0aa62281e9c4c197",
+  "image_sha256": "a41a270b2a29256a584ac48ee227bd3a3a867c4ce98f2765d3f53925a3b10520",
+  "started_at": "2026-09-15T17:01:50+09:00",
+  "last_saved_at": "2026-09-15T17:02:15+09:00",
+  "completed_at": "2026-09-15T17:02:15+09:00",
+  "active_seconds": 22.5,
+  "wall_seconds": 25.26,
+  "complete": true,
+  "frame_note": "",
+  "eligible_from": "2026-08-25T00:54:18+09:00"
+ }
+}

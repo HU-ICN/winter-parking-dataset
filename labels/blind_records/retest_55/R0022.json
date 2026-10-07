@@ -1,0 +1,81 @@
+{
+ "version": "3.2.6",
+ "flags": {},
+ "shapes": [
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1409.61,
+     1107.55
+    ],
+    [
+     1563.85,
+     1182.53
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  },
+  {
+   "kie_linking": [],
+   "label": "car",
+   "score": null,
+   "points": [
+    [
+     1861.62,
+     1193.24
+    ],
+    [
+     2037.29,
+     1270.36
+    ]
+   ],
+   "group_id": null,
+   "description": "",
+   "difficult": false,
+   "shape_type": "rectangle",
+   "flags": {
+    "partially_buried": false
+   },
+   "attributes": {
+    "partially_buried": false
+   }
+  }
+ ],
+ "imagePath": "image_20231230090940.png",
+ "imageData": null,
+ "imageHeight": 1536,
+ "imageWidth": 2304,
+ "description": "",
+ "revision_annotation": {
+  "tool": "blind_detection_tool",
+  "tool_version": "1.0.14",
+  "label_set_id": "INDEPENDENT-BLIND-RETEST-55",
+  "anonymous_id": "R0022",
+  "sequence": 22,
+  "protocol_sha256": "ba3b4394fc8a85ccfa3902eb5484e9c44c9d8a291a947e4cfdda79ffca180e34",
+  "addendum_sha256": null,
+  "instrumentation_addendum_sha256": "bc4d8e5e70a61ae9b08466fcaa0fe6abf13e4f804fa12e0df9e431710302e572",
+  "manifest_sha256": "e65f4dfddadb85e7de634347ce3398af4ace03d8924f2aae0aa62281e9c4c197",
+  "image_sha256": "9036ef6736614e9c1955e26d0be0820d4f78747374911f56bacbd6f1b21fcdc6",
+  "started_at": "2026-09-14T17:03:15+09:00",
+  "last_saved_at": "2026-09-15T16:00:49+09:00",
+  "completed_at": "2026-09-14T17:03:30+09:00",
+  "active_seconds": 12.67,
+  "wall_seconds": 17.2,
+  "complete": true,
+  "frame_note": "",
+  "eligible_from": "2026-09-08T11:32:19+09:00"
+ }
+}

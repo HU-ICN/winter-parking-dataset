@@ -1,0 +1,29 @@
+{
+ "version": "3.2.6",
+ "flags": {},
+ "shapes": [],
+ "imagePath": "image_20240120065149.png",
+ "imageData": null,
+ "imageHeight": 1536,
+ "imageWidth": 2304,
+ "description": "",
+ "revision_annotation": {
+  "tool": "blind_detection_tool",
+  "tool_version": "1.0.11",
+  "label_set_id": "INDEPENDENT-BLIND-AUDIT-100",
+  "anonymous_id": "A0033",
+  "sequence": 33,
+  "protocol_sha256": "ba3b4394fc8a85ccfa3902eb5484e9c44c9d8a291a947e4cfdda79ffca180e34",
+  "addendum_sha256": null,
+  "instrumentation_addendum_sha256": "bc4d8e5e70a61ae9b08466fcaa0fe6abf13e4f804fa12e0df9e431710302e572",
+  "manifest_sha256": "a90a529eeba5b2eb4d6e8d0b49bec53e7b397e90450811f6326f3412b0e36d51",
+  "image_sha256": "7f76bfeaad5a93f17f1cf83b00508bd23adb08fd2e7f4b0a7b3e4f1dc31590c2",
+  "started_at": "2026-09-06T18:21:53+09:00",
+  "last_saved_at": "2026-09-06T19:20:41+09:00",
+  "completed_at": "2026-09-06T18:21:57+09:00",
+  "active_seconds": 2.97,
+  "wall_seconds": 5.11,
+  "complete": true,
+  "frame_note": ""
+ }
+}

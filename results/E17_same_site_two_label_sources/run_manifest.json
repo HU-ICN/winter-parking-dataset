@@ -1,0 +1,245 @@
+{
+ "script_version": 3,
+ "plan": "experiments/E17/UNBLIND_PLAN.md",
+ "freeze": {
+  "script": "723e513504ef7dfc4822e13d595f28894cb5abce9d3256a6d0a1558e31b02d9d",
+  "plan": "292da258780d9a315ddba927681af08ed3f1ef30c3a700bd568b3446b72cf93f",
+  "model_registry": "707e201f5a688869c9de223a30e259855e2350d6c3c926ec5972afb7aa505981",
+  "labelset_manifest:FIXED-AUDITED-TEST": "34df1ba798852c4ed54adf15a44f160a96d633794562eed61c9d505e4f11bcaf",
+  "labelset_manifest:FIXED-AUDITED-331": "55d98c4247d53eb602a0f57e44e172ba2827a3dd1e3fa397de5c0b3c87191fc8",
+  "labelset_manifest:FIXED-AUDITED-88": "79884e549a4d9d7fa1221757adb4c436fb348fb1c9eb232c0d7e6868104690c0",
+  "labelset_manifest:INDEPENDENT-BLIND-331": "a1f6713f8b074ce2fdcc8740fc25ca130a590e4cf9702e3693f01a9bbeed518c",
+  "buried_flags:INDEPENDENT-BLIND-331": "9067a83ac2287d2e707f68e8fe76632673e2dc89f6a1871db44163900af58cc3",
+  "labelset_manifest:INDEPENDENT-BLIND-S0S3-88": "b675fd1a6645cc63edc401f85b2f37b092a8c89d7f8508ba15f5ccb70ae66d66",
+  "buried_flags:INDEPENDENT-BLIND-S0S3-88": "19780ace19062002bbca92bb6d1573c4da46206834975445716aa298a9f36563",
+  "labelset_manifest:INDEPENDENT-BLIND-419": "1afabf1c34d2c36ea47f133f55868ce46f899d0ffbb3fb589714edddcef4e61c",
+  "exclude_manifest": "80799f5c6d30f15700f4b33c8a76e6dcd17e9cb027a374e874c1a885f1d89d48",
+  "stage_c_log_line": "STAGE_C_DONE ok=3 fail=0",
+  "weights": {
+   "E17_a_s0": "2600468676f6f801af63bbb570a288296f067a5a10c3cfa9f3d8c079f336bf21",
+   "E17_a_s1": "f6e4f9023e063d92a3f0372792b118539408cc3ad13ae4cf053ac77ef271d062",
+   "E17_a_s2": "5c47adb68a820ecc1e7ae54bc7fe915df23cbac329a28fcf2dcd3865ab81f1ad",
+   "E17_b_s0": "c12de12673af459615f755c178d70e1337e53955cb607bf6135b2dcc7d4ba088",
+   "E17_b_s1": "6bf3d4cda0e71d2796e224ba2b11b87accc2d23de1158fa53c02dcf9f82becdb",
+   "E17_b_s2": "64f2404794af9228644446aebe18eccaf8c38f34f6ea0da9b0211ccd2901b554",
+   "E17_c_s0": "16c66769001730c6321e851946bc27c5c6fc1bcad56acf70eb8425fa8e74e073",
+   "E17_c_s1": "ff6cc4d12472796a15513175c599d7027670d16418996abe0d4c2bf5a83d949d",
+   "E17_c_s2": "9be4dd7ce351b1c49ee3ac47332ebbcf5c34be137106307bda032ddc12e193ec",
+   "final_2794_historical": "ce9e9c772d7738e8b15b63b848ca18ce6e459d60f7aebb62666d6aa5ba3231bc",
+   "coco_yolo11n": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+   "coco_yolo11s": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+   "coco_yolo11m": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95"
+  },
+  "images_dir": "<datasets>/custom_dataset/image3",
+  "images_manifest": "9900e327cefff08181bcb129c62a0cab928f0145e963f98822f8a83de4afe9bd",
+  "n_images": 723,
+  "image_size": [
+   2304,
+   1536
+  ],
+  "parameters": {
+   "val": {
+    "imgsz": 1280,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "batch": 16
+   },
+   "pred": {
+    "imgsz": 1280,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300
+   },
+   "boot": 2000,
+   "seed": 0,
+   "match_iou": 0.5,
+   "threshold": 0.03,
+   "min_valid_replicates": 1900,
+   "coco_vehicle": [
+    2,
+    5,
+    7
+   ]
+  },
+  "environment": {
+   "python": "3.10.13",
+   "numpy": "1.26.4",
+   "torch": "2.7.0+cu126",
+   "ultralytics": "8.3.186",
+   "cuda": "12.6",
+   "gpu": "NVIDIA GeForce RTX 4090",
+   "host": "mario-ML-7B79"
+  }
+ },
+ "amendment1": {
+  "exclude_ids": [
+   "X0059"
+  ],
+  "n_excluded_frames": 1,
+  "derived_sets": [
+   "FIXED-AUDITED-88-EXCL1",
+   "INDEPENDENT-BLIND-S0S3-88-EXCL1"
+  ]
+ },
+ "models": [
+  {
+   "tag": "E17_a_s0",
+   "path": "<runs>/E17/a_s0/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "2600468676f6f801af63bbb570a288296f067a5a10c3cfa9f3d8c079f336bf21"
+  },
+  {
+   "tag": "E17_a_s1",
+   "path": "<runs>/E17/a_s1/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "f6e4f9023e063d92a3f0372792b118539408cc3ad13ae4cf053ac77ef271d062"
+  },
+  {
+   "tag": "E17_a_s2",
+   "path": "<runs>/E17/a_s2/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "5c47adb68a820ecc1e7ae54bc7fe915df23cbac329a28fcf2dcd3865ab81f1ad"
+  },
+  {
+   "tag": "E17_b_s0",
+   "path": "<runs>/E17/b_s0/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "c12de12673af459615f755c178d70e1337e53955cb607bf6135b2dcc7d4ba088"
+  },
+  {
+   "tag": "E17_b_s1",
+   "path": "<runs>/E17/b_s1/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "6bf3d4cda0e71d2796e224ba2b11b87accc2d23de1158fa53c02dcf9f82becdb"
+  },
+  {
+   "tag": "E17_b_s2",
+   "path": "<runs>/E17/b_s2/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "64f2404794af9228644446aebe18eccaf8c38f34f6ea0da9b0211ccd2901b554"
+  },
+  {
+   "tag": "E17_c_s0",
+   "path": "<runs>/E17/c_s0/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "16c66769001730c6321e851946bc27c5c6fc1bcad56acf70eb8425fa8e74e073"
+  },
+  {
+   "tag": "E17_c_s1",
+   "path": "<runs>/E17/c_s1/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "ff6cc4d12472796a15513175c599d7027670d16418996abe0d4c2bf5a83d949d"
+  },
+  {
+   "tag": "E17_c_s2",
+   "path": "<runs>/E17/c_s2/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "9be4dd7ce351b1c49ee3ac47332ebbcf5c34be137106307bda032ddc12e193ec"
+  },
+  {
+   "tag": "final_2794_historical",
+   "path": "<datasets>/custom_dataset/snowpark_yolo2/runs/train/weights/best.pt",
+   "kind": "single_cls",
+   "sha256": "ce9e9c772d7738e8b15b63b848ca18ce6e459d60f7aebb62666d6aa5ba3231bc"
+  },
+  {
+   "tag": "coco_yolo11n",
+   "path": "<runs>/weights/yolo11n.pt",
+   "kind": "coco_vehicle",
+   "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  },
+  {
+   "tag": "coco_yolo11s",
+   "path": "<runs>/weights/yolo11s.pt",
+   "kind": "coco_vehicle",
+   "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+  },
+  {
+   "tag": "coco_yolo11m",
+   "path": "<runs>/weights/yolo11m.pt",
+   "kind": "coco_vehicle",
+   "sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95"
+  }
+ ],
+ "labelsets": {
+  "FIXED-AUDITED-TEST": {
+   "n_files": 723,
+   "n_boxes": 17290,
+   "aggregate_sha256": "368833acfc9b3841a46668719f3187d8f99585d2a35e229b72e37e6e00b54860"
+  },
+  "FIXED-AUDITED-331": {
+   "n_files": 331,
+   "n_boxes": 12277,
+   "aggregate_sha256": "9fddf8e0fc8fd1a005dd9857e098f9561251d411ca53db75bc7a4738b3b2ea96"
+  },
+  "FIXED-AUDITED-88": {
+   "n_files": 88,
+   "n_boxes": 1110,
+   "aggregate_sha256": "49f1809934baa114a06f2cc1a86589b7c652aea80e46d602c15f5d0096042388"
+  },
+  "INDEPENDENT-BLIND-331": {
+   "n_files": 331,
+   "n_boxes": 12260,
+   "aggregate_sha256": "a484e2079c80cd0b18cfbda7c688f004c98dfbb4e867d5a2665ed9d12278ae18"
+  },
+  "INDEPENDENT-BLIND-S0S3-88": {
+   "n_files": 88,
+   "n_boxes": 1108,
+   "aggregate_sha256": "eaab4571668475fd1e68fa11bdb854275bd71013592b5978a95f6d27c867b994"
+  },
+  "INDEPENDENT-BLIND-419": {
+   "n_files": 419,
+   "n_boxes": 13368,
+   "aggregate_sha256": "91624f603c3f2470b8ebe040d386aaa19fd57304364ec3a451e1eb7643fa845d"
+  },
+  "FIXED-AUDITED-88-EXCL1": {
+   "n_files": 87,
+   "n_boxes": 1059,
+   "aggregate_sha256": "b26b1ca27a22aac30a104af5aa101fd2c24f7e241722b6633548751ce48dc9e2"
+  },
+  "INDEPENDENT-BLIND-S0S3-88-EXCL1": {
+   "n_files": 87,
+   "n_boxes": 1057,
+   "aggregate_sha256": "5f216d3ea983462e9be717d1a3e839152506b75a681785f33744a92cb3a04717"
+  }
+ },
+ "val_args": {
+  "imgsz": 1280,
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "batch": 16
+ },
+ "pred_args": {
+  "imgsz": 1280,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300
+ },
+ "match_iou": 0.5,
+ "bootstrap": {
+  "replicates": 2000,
+  "seed": 0
+ },
+ "rule_threshold": 0.03,
+ "support_sets": {
+  "S_rec": "frames with >=1 GT box under BOTH label sources (macro recall, conditional)",
+  "S_prec": "frames with >=1 prediction (macro precision, conditional; identical for both sources)",
+  "micro": "all frames pooled"
+ },
+ "started_at": "2026-09-06T152011+0800",
+ "n_jobs": 128,
+ "args": {
+  "models": "<runs>/UNBLIND_INPUTS/experiments/E17/UNBLIND_MODELS.json",
+  "labelsets_root": "<runs>/UNBLIND_INPUTS/labelsets",
+  "images": "<datasets>/custom_dataset/image3",
+  "out_root": "<runs>/UNBLIND",
+  "stage_c_log": "<runs>/E17/stage_c.log",
+  "image_size": "[2304, 1536]",
+  "freeze": "False",
+  "dry_run": "False"
+ },
+ "environment": "host=mario-ML-7B79 python=3.10.13 torch=2.7.0+cu126 ultralytics=8.3.186 gpu=NVIDIA GeForce RTX 4090",
+ "finished_at": "2026-09-06T160014+0800"
+}

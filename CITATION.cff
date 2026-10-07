@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, its labels or the released detector, please cite the paper below."
+title: "Winter Parking-Lot Dataset (Sapporo, 2023-2024)"
+authors:
+  - family-names: Li
+    given-names: Mingyang
+    orcid: "https://orcid.org/0009-0003-7637-2636"
+    affiliation: "Hokkaido University"
+  - family-names: Chimkono
+    given-names: Aaron William
+    affiliation: "Hokkaido University"
+  - family-names: Shimizu
+    given-names: Kodai
+    affiliation: "Hokkaido University"
+  - family-names: Tsutsui
+    given-names: Hiroshi
+    affiliation: "Hokkaido University"
+  - family-names: Ohgane
+    given-names: Takeo
+    affiliation: "Hokkaido University"
+version: "1.0"
+date-released: "2026-10-07"
+license: "CC-BY-4.0 (labels and metadata); MIT and AGPL-3.0 (code and weights, see LICENSES.md); images under a research-use agreement"
+preferred-citation:
+  type: article
+  title: "A Winter Parking-Lot Dataset and Label-Efficient Site Adaptation for Vehicle Occupancy Detection Under Snow"
+  authors:
+    - family-names: Li
+      given-names: Mingyang
+    - family-names: Chimkono
+      given-names: Aaron William
+    - family-names: Shimizu
+      given-names: Kodai
+    - family-names: Tsutsui
+      given-names: Hiroshi
+    - family-names: Ohgane
+      given-names: Takeo
+  journal: "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences"
+  notes: "Special Section on Smart Multimedia & Communication Systems; under review (manuscript 2026SMP0005). Volume, number, pages and DOI will be added on publication."

@@ -1,0 +1,99 @@
+{
+ "threshold": 0.03,
+ "definition": "Amendment 3: (i) seed-mean mAP@[.5:.95] ordering a<b<c on BOTH INDEPENDENT-BLIND-331 and INDEPENDENT-BLIND-S0S3-88; (ii) |FIXED - BLIND| <= threshold on 331 and on 88 for the stage-c seed mean and for the historical final model; per-seed and 87-frame values are supplementary",
+ "per_model": {
+  "E17_a_s0": {
+   "d331": 0.07508509745447711,
+   "d88": 0.17756532907120492,
+   "dFIXED-AUDITED-88-EXCL1": 0.17570873400386366,
+   "within_threshold_331_88": false
+  },
+  "E17_a_s1": {
+   "d331": 0.08918377150531598,
+   "d88": 0.17954381226651472,
+   "dFIXED-AUDITED-88-EXCL1": 0.1783439149258389,
+   "within_threshold_331_88": false
+  },
+  "E17_a_s2": {
+   "d331": 0.08687453211775686,
+   "d88": 0.16243378662695074,
+   "dFIXED-AUDITED-88-EXCL1": 0.16240595823415638,
+   "within_threshold_331_88": false
+  },
+  "E17_b_s0": {
+   "d331": 0.08482930199319005,
+   "d88": 0.17253557433831568,
+   "dFIXED-AUDITED-88-EXCL1": 0.17083140422115572,
+   "within_threshold_331_88": false
+  },
+  "E17_b_s1": {
+   "d331": 0.10707429075976893,
+   "d88": 0.18571573247568562,
+   "dFIXED-AUDITED-88-EXCL1": 0.18515584182840006,
+   "within_threshold_331_88": false
+  },
+  "E17_b_s2": {
+   "d331": 0.09819180614086565,
+   "d88": 0.17016262402578997,
+   "dFIXED-AUDITED-88-EXCL1": 0.17046008084194664,
+   "within_threshold_331_88": false
+  },
+  "E17_c_s0": {
+   "d331": 0.12742968568145863,
+   "d88": 0.22692831673585512,
+   "dFIXED-AUDITED-88-EXCL1": 0.22675810802169305,
+   "within_threshold_331_88": false
+  },
+  "E17_c_s1": {
+   "d331": 0.12504268051690925,
+   "d88": 0.21336356696347591,
+   "dFIXED-AUDITED-88-EXCL1": 0.21393925485083265,
+   "within_threshold_331_88": false
+  },
+  "E17_c_s2": {
+   "d331": 0.12425502666004495,
+   "d88": 0.21022666100588683,
+   "dFIXED-AUDITED-88-EXCL1": 0.2107385179119995,
+   "within_threshold_331_88": false
+  },
+  "final_2794_historical": {
+   "d331": 0.12742968568145863,
+   "d88": 0.22692831673585512,
+   "dFIXED-AUDITED-88-EXCL1": 0.22675810802169305,
+   "within_threshold_331_88": false
+  }
+ },
+ "per_seed_ordering": {
+  "INDEPENDENT-BLIND-331": [
+   false,
+   true,
+   false
+  ],
+  "INDEPENDENT-BLIND-S0S3-88": [
+   false,
+   true,
+   false
+  ]
+ },
+ "stage_means": {
+  "INDEPENDENT-BLIND-331": {
+   "a": 0.7215297330276241,
+   "b": 0.7298442913342073,
+   "c": 0.7243275283157752
+  },
+  "INDEPENDENT-BLIND-S0S3-88": {
+   "a": 0.7406682097550382,
+   "b": 0.756334587136823,
+   "c": 0.7577209044389882
+  }
+ },
+ "stage_c_seed_mean_diffs": {
+  "d331": 0.12557579761947094,
+  "d88": 0.21683951490173928
+ },
+ "ordering_a_lt_b_lt_c_on_both_blind_sets": false,
+ "threshold_stage_c_mean": false,
+ "threshold_final": false,
+ "threshold_all_c_seeds_supplementary": false,
+ "headline_supported": false
+}
