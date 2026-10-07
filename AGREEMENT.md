@@ -7,7 +7,7 @@ Winter Parking-Lot Dataset (Sapporo, 2023-2024), images
    (contact: mingyang.li.t6@elms.hokudai.ac.jp). This Agreement grants a limited,
    non-exclusive, non-transferable right of use; it transfers no ownership or other rights.
 2. Scope. 5,217 images of a fixed-camera parking lot in Sapporo (2023-11-24 to 2024-04-12) and the
-   accompanying labels. Labels, splits and code are also available publicly at https://github.com/LmyHokudai/winter-parking-dataset;
+   accompanying labels. Labels, splits and code are also available publicly at https://github.com/HU-ICN/winter-parking-dataset;
    this Agreement governs the images.
 3. Permitted use. Non-commercial academic research, including training, evaluation and necessary
    preprocessing, and publication of statistical results. Up to ten example images may be shown in
